@@ -28,6 +28,13 @@
     </addColumn>
     </changeSet>
 
+    <changeSet id="1" author="durga">
+    <insert tableName="users">
+        <column name="username" value="demouser3"/>
+        <column name="email" value="demo3@example.com"/>
+    </insert>
+    </changeSet>
+
 
 </databaseChangeLog>
 
